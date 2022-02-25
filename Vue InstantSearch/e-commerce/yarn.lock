@@ -2607,6 +2607,11 @@ core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
+core-js@^3.6.5:
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
+  integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
+
 core-util-is@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -8385,11 +8390,12 @@ vue-property-decorator@^8.0.0:
   dependencies:
     vue-class-component "^7.1.0"
 
-vue-slider-component@3.0.32:
-  version "3.0.32"
-  resolved "https://registry.yarnpkg.com/vue-slider-component/-/vue-slider-component-3.0.32.tgz#bc241280cd7371c24eb749c28088e2365e529aca"
-  integrity sha512-uF8R6fqUPzqMTbzyujppG2oGl+n2rvG8k5KTVBBSJqDh4dC+WqxtjFb9oQlTmUVBOmlEwC2MFYYQfXmZ5OeftA==
+vue-slider-component@3.2.15:
+  version "3.2.15"
+  resolved "https://registry.yarnpkg.com/vue-slider-component/-/vue-slider-component-3.2.15.tgz#fd40564c1d15a90a1290cb691990c0bc745b3aa9"
+  integrity sha512-FpmMsQ6MQFn22B6boDcEjRmuawdaHwjHRVZiuv5w37jijHra6+HogjSrh3mb42jE+PUIFFagXi36oFEzpDbadg==
   dependencies:
+    core-js "^3.6.5"
     vue-property-decorator "^8.0.0"
 
 vue-style-loader@^4.1.0:
